@@ -1,3 +1,4 @@
+![Logo do projeto](https://i.imgur.com/Ljsn8Z1.jpeg)
 # Projeto de PetShop
 Uma loja de dropshipping rápida e prática 
 
