@@ -99,4 +99,4 @@ import fs from "node:fs"
 
 ## 📝 Licenças
 
-> **Esse projeto está sob a licença (MIT Licença) - acesse os detalhes [LICENSE.md](https://github.com/DevVittor/Anuncios/blob/branch/LICENSE.md).**
+> **Esse projeto está sob a licença (MIT Licença) - acesse os detalhes [LICENSE.md](https://github.com/DevVittor/PetShop/blob/branch/LICENSE.md).**
