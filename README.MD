@@ -2,16 +2,16 @@
 # Projeto de PetShop
 Uma loja de dropshipping rápida e prática 
 
-## 👨🏾‍🏫 Introdução
+## 📖 Introdução:
 
 **Aqui eu mostro a maneira mais rápida, prática, testável e moderna que eu uso em alguns dos meus freelancers que eu faço no dia-a-dia.**
 
 ## 💻 Pré-Requisitos: 
 
-* Sistema Operacional
-* Node
-* VsCode
-* Xampp
+![Sistema Operacional](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<img src="https://pplware.sapo.pt/wp-content/uploads/2021/05/XAMPP-3.jpg" width="51"/>
 
 ## 📋 Tecnologias Usadas:
 
@@ -98,6 +98,12 @@ import fs from "node:fs"
 
 > **Sequelize**
 
-## 📝 Licenças
+## 👨🏾‍🏫 Autor:
+
+* **Nome: Vittor Serra**
+
+* **[Perfil GitHub](https://github.com/DevVittor)**
+
+## 📝 Licenças:
 
 > **Esse projeto está sob a licença (MIT Licença) - acesse os detalhes [LICENSE.md](https://github.com/DevVittor/PetShop/blob/branch/LICENSE.md).**
