@@ -6,10 +6,10 @@ import compression from "compression";
 //import session from "express-session";
 import http from "node:http";
 const createServer = http.createServer(app);
-import router from "./src/routes/index.js";
+import router from "./routes/index.js";
 
 //import Usuario from "./models/Usuario.js";
-import conn from "./database/conn.js";
+import conn from "../database/conn.js";
 import path from "node:path";
 import fs from "node:fs";
 
