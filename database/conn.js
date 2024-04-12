@@ -6,10 +6,18 @@ import mysql from 'mysql2';
 });*/
 
 const conn = mysql.createConnection({
-  host: 'seu_host_mysql',
-  user: 'seu_usuario_mysql',
-  password: 'sua_senha_mysql',
-  database: 'seu_banco_de_dados_mysql'
+  host: 'localhost',
+  user: 'root',
+  password: 'mint',
+  database: 'pet'
+});
+
+conn.connect((err) => {
+  if (err) {
+    console.error('Erro ao conectar ao banco de dados MySQL:', err);
+    return;
+  }
+  console.log('Conexão bem sucedida ao banco de dados MySQL!');
 });
 
 export default conn;
