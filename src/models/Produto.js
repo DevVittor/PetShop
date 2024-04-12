@@ -1,7 +1,8 @@
-import {DataTypes} from "sequelize";
+//import {DataTypes} from "sequelize";
+import { DataTypes, Sequelize } from 'sequelize';
 import conn from "../../database/conn.js";
-
-const Produto = conn.define("produtos",{
+const sequelize = conn; 
+const Produto = sequelize.define("produtos",{
     nome:{
         type:DataTypes.STRING(150),
         allowNull:false
