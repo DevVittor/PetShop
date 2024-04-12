@@ -30,8 +30,11 @@ app.use((req,_,next)=>{
 });
 app.use("/",router);
 
-//conn.authenticate()
-conn.connect()
+createServer.listen(port,()=>{
+        console.log(`Rodando na porta ${port}...`);
+    })
+
+/*conn.authenticate()
 .then(()=>{
     console.log(`O banco de dados foi sincronizado com sucesso!`);
     createServer.listen(port,()=>{
@@ -39,4 +42,4 @@ conn.connect()
     })
 }).catch((error)=>{
     console.log(`Não foi possível sincronizar o banco de dados. ${error}`);
-})
+})*/
