@@ -30,7 +30,8 @@ app.use((req,_,next)=>{
 });
 app.use("/",router);
 
-conn.authenticate()
+//conn.authenticate()
+conn.connect()
 .then(()=>{
     console.log(`O banco de dados foi sincronizado com sucesso!`);
     createServer.listen(port,()=>{
